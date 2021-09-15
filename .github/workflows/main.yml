@@ -46,4 +46,3 @@ jobs:
         with:
           deploy_key: ${{ secrets.SECRET_KEY }}
           publish_dir: ./web-core/build
-          destination_dir: ./web-core
