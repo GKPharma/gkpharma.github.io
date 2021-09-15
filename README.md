@@ -1,1 +1,1 @@
-# open_pms
+# Open Pharmacy Management System
