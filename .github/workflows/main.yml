@@ -45,4 +45,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.SECRET_KEY }}
-          publish_dir: ./build
+          publish_dir: ./web-core/build
