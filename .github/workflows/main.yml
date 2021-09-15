@@ -35,6 +35,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           
       - name: npm ci, build and test
+        working-directory: ./web-core
         run: |
           npm ci
           npm run build --if-present
