@@ -1,1 +1,0 @@
-# Open Pharmacy Management System
