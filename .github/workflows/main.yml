@@ -37,7 +37,6 @@ jobs:
       - name: npm ci, build and test
         working-directory: ./web-core
         run: |
-          npm ci
           npm run build --if-present
           
       - name: deploy to gh-pages
