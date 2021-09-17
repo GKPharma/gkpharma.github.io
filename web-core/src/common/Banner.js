@@ -21,7 +21,11 @@ function Banner(props) {
                 color: '#fff',
                 backgroundSize: 'auto 150%',
                 backgroundRepeat: 'no-repeat',
-                backgroundPosition: '15vw 50%',
+                backgroundPosition: {
+                    xs: '10vw 50%',
+                    md: '25vw 50%',
+                    lg: '40vw 50%',
+                },
                 backgroundImage: `url(${img})`,
             }}
         >
