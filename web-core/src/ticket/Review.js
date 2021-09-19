@@ -12,16 +12,6 @@ const products = [
     price: '$9.99',
   },
   {
-    name: 'Product 2',
-    desc: 'Another thing',
-    price: '$3.45',
-  },
-  {
-    name: 'Product 3',
-    desc: 'Something else',
-    price: '$6.51',
-  },
-  {
     name: 'Product 4',
     desc: 'Best thing of all',
     price: '$14.11',
@@ -31,10 +21,7 @@ const products = [
 
 const addresses = ['1 MUI Drive', 'Reactville', 'Anytown', '99999', 'USA'];
 const payments = [
-  { name: 'Card type', detail: 'Visa' },
-  { name: 'Card holder', detail: 'Mr John Smith' },
   { name: 'Card number', detail: 'xxxx-xxxx-xxxx-1234' },
-  { name: 'Expiry date', detail: '04/2024' },
 ];
 
 export default function Review() {

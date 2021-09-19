@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import Box from '@mui/material/Box';
+import TrackingWidget from './TrackingWidget';
 
 function Banner(props) {
     const { img } = props;
@@ -14,18 +15,14 @@ function Banner(props) {
             sx={{
                 display: 'flex',
                 right: 0,
-                height: '100%',
-                width: '100%',
-                position: 'absolute',
+                height: '75vh',
+                width: 'auto',
+                position: 'relative',
                 backgroundColor: '#EBF3FA',
                 color: '#fff',
-                backgroundSize: 'auto 150%',
+                backgroundSize: 'auto 170%',
                 backgroundRepeat: 'no-repeat',
-                backgroundPosition: {
-                    xs: '10vw 50%',
-                    md: '25vw 50%',
-                    lg: '40vw 50%',
-                },
+                backgroundPosition: '-20% 70%',
                 backgroundImage: `url(${img})`,
             }}
         >
@@ -46,15 +43,16 @@ function Banner(props) {
                     //   backgroundColor: 'rgba(0,0,0,.3)',
                 }}
             />
-            <Grid container>
+            <Grid container justifyContent='center'>
                 <Grid item md={6}>
                     <Box
                         sx={{
                             position: 'relative',
-                            p: { xs: 3, md: 6 },
-                            pr: { md: 0 },
+                            p: 3,
+                            pr: 0,
                         }}
                     >
+                        <TrackingWidget/>
                     </Box>
                 </Grid>
             </Grid>

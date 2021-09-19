@@ -59,7 +59,7 @@ export default function MainContainer(props) {
                 </Box>
                 <Box sx={{
                     flex: '1 1 auto',
-                    overflow: 'hidden',
+                    overflow: 'auto',
                     position: 'relative',
                 }}>
                     <Banner img="/bg.svg" />

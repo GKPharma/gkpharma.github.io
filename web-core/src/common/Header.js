@@ -31,12 +31,12 @@ function Header(props) {
           Sign up
         </Button>
       </Toolbar>
-      <Toolbar
+      {/* <Toolbar
         component="nav"
         variant="dense"
         sx={{ justifyContent: 'space-between', overflowX: 'auto' }}
       >
-        {/* {sections.map((section) => (
+        {sections.map((section) => (
           <Link
             color="inherit"
             noWrap
@@ -47,8 +47,8 @@ function Header(props) {
           >
             {section.title}
           </Link>
-        ))} */}
-      </Toolbar>
+        ))}
+      </Toolbar> */}
     </React.Fragment>
   );
 }
